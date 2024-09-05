@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const PopPeople = () => {
+const PopularPeople = () => {
     const [data, setData] = useState([]);
     const baseURL = 'https://image.tmdb.org/t/p/w500';
 
@@ -50,4 +50,4 @@ const PopPeople = () => {
     );
 }
 
-export default PopPeople;
+export default PopularPeople;

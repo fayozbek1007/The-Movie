@@ -106,6 +106,4 @@ i18n.use(initReactI18next).init({
     escapeValue: false,
   },
 });
-g
 export default i18n;
-https://github.com/fayozbek1007/The-Movie.gitgit 
